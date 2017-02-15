@@ -87,3 +87,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+!/jenkins_test.spec
+.idea
