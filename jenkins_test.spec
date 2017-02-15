@@ -32,8 +32,8 @@ exe = EXE(pyz,
           debug=True,
           strip=False,
           upx=False,
-          console=False, icon='/Users/sansorge/PycharmProjects/jenkins_test/src/FOLDER_1/jenkins.png.icns')
+          console=False, icon=PATH + '/FOLDER_1/jenkins.png.icns')
 app = BUNDLE(exe,
              name='jenkins_test.app',
-             icon='/Users/sansorge/PycharmProjects/jenkins_test/src/FOLDER_1/jenkins.png.icns',
+             icon=PATH + '/FOLDER_1/jenkins.png.icns',
              bundle_identifier=None)
