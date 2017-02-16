@@ -42,7 +42,7 @@ TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 image = pygame.image.load(IMAGE_PATH)
 font = pygame.font.SysFont('arial', 18)
 
-background = pygame.draw.rect(TFT, GREEN, (0, 0, 266, 266))
+background = pygame.draw.rect(TFT, DARK_GRAY, (0, 0, 266, 266))
 
 
 def draw_to_tft():
