@@ -25,11 +25,16 @@ print(IMAGE_PATH)
 
 image = pygame.image.load(IMAGE_PATH)
 
+font = pygame.font.SysFont(pygame.font.get_default_font(), 20)
+
+color = (255, 255, 255)
+
 TFT = pygame.display.set_mode((256, 256))
 
 
 def draw_to_tft():
     TFT.blit(image, (0, 0))
+    TFT.blit(font.render('jenkins', True, color), (200, 240))
 
     pygame.display.update()
 
