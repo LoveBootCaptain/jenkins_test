@@ -41,6 +41,8 @@ DAEMON_NAME=jenkins_test
 # Add any command line options for your daemon here
 DAEMON_OPTS=""
 
+
+
 # This next line determines what user the script runs as.
 # Root generally not recommended but necessary if you are using the Raspberry Pi GPIO from Python.
 DAEMON_USER=root
