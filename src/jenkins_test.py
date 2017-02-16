@@ -7,6 +7,8 @@ import pygame
 
 pygame.init()
 
+pygame.mouse.set_visible(False)
+
 PATH = sys.path[1] + '/src'
 
 file = __file__
