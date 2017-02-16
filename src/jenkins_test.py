@@ -48,7 +48,7 @@ background = pygame.draw.rect(TFT, GREEN, (0, 0, 256, 256))
 
 def draw_to_tft():
     TFT.blit(image, (0, 0))
-    TFT.blit(font.render('jenkins', True, WHITE), (195, 240))
+    TFT.blit(font.render('jenkins', True, WHITE), (195, 235))
 
     pygame.display.update()
 
