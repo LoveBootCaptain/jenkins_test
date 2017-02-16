@@ -25,11 +25,13 @@ print(IMAGE_PATH)
 
 image = pygame.image.load(IMAGE_PATH)
 
-font = pygame.font.SysFont('', 18)
+font = pygame.font.SysFont('arial', 18)
 
 color = (255, 255, 255)
 
 TFT = pygame.display.set_mode((256, 256))
+
+background = pygame.draw.rect(TFT, RED, )
 
 
 def draw_to_tft():
