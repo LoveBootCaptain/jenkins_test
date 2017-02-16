@@ -23,12 +23,8 @@ IMAGE_PATH = PATH + FOLDER_PATH + 'jenkins.png'
 
 print(IMAGE_PATH)
 
-image = pygame.image.load(IMAGE_PATH)
-
-font = pygame.font.SysFont('arial', 18)
-
-DISPLAY_WIDTH = 256
-DISPLAY_HEIGHT = 256
+DISPLAY_WIDTH = 266
+DISPLAY_HEIGHT = 266
 
 BLACK = (10, 10, 10)
 DARK_GRAY = (43, 43, 43)
@@ -43,12 +39,15 @@ ORANGE = (238, 153, 18)
 
 TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 
-background = pygame.draw.rect(TFT, GREEN, (0, 0, 256, 256))
+image = pygame.image.load(IMAGE_PATH)
+font = pygame.font.SysFont('arial', 18)
+
+background = pygame.draw.rect(TFT, GREEN, (0, 0, 266, 266))
 
 
 def draw_to_tft():
-    TFT.blit(image, (0, 0))
-    TFT.blit(font.render('jenkins', True, WHITE), (195, 235))
+    TFT.blit(image, (5, 5))
+    TFT.blit(font.render('jenkins', True, WHITE), (200, 240))
 
     pygame.display.update()
 
