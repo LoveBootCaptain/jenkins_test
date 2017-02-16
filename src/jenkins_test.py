@@ -25,7 +25,7 @@ print(IMAGE_PATH)
 
 image = pygame.image.load(IMAGE_PATH)
 
-font = pygame.font.SysFont(pygame.font.get_default_font(), 20)
+font = pygame.font.SysFont('arial', 20)
 
 color = (255, 255, 255)
 
