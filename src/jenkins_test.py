@@ -43,12 +43,12 @@ ORANGE = (238, 153, 18)
 
 TFT = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
 
-background = pygame.draw.rect(TFT, RED, (0, 0, 256, 256))
+background = pygame.draw.rect(TFT, GREEN, (0, 0, 256, 256))
 
 
 def draw_to_tft():
     TFT.blit(image, (0, 0))
-    TFT.blit(font.render('jenkins', True, WHITE), (200, 240))
+    TFT.blit(font.render('jenkins', True, WHITE), (195, 240))
 
     pygame.display.update()
 
